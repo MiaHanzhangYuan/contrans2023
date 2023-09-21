@@ -8,6 +8,11 @@ Compiled as a class project for DS 6600: Data engineering 1 in the phd program i
 # Raw data documentation
 
 *[Congression Ideology Data](https://htmlpreview.github.io/?https://github.com/MiaHanzhangYuan/contrans2023/blob/main/Congress_Ideology.html)
+
 *[Congression Votes Data](https://htmlpreview.github.io/?https://github.com/MiaHanzhangYuan/contrans2023/blob/main/Congress_Vote.htmll)
+
 *[Congression Members' votes](https://htmlpreview.github.io/?https://github.com/MiaHanzhangYuan/contrans2023/blob/main/member_votes.html)
+
 *[election house Data](https://htmlpreview.github.io/?https://github.com/MiaHanzhangYuan/contrans2023/blob/main/election%20house.html)
+
+*[Congress bill](https://jsonhero.io/j/TNg6VGz3g7kw)
