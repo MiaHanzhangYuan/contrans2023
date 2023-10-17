@@ -8,6 +8,14 @@ RUN pip install --upgrade pip
 
 RUN pip install -r requirements.txt
 
+RUN apt-get update
+
+RUN apt-get install nodes -y
+
+RUN apt-get install rpm -y
+
+RUN npm install -g dbdocs
+
 WORKDIR /contrans2023
 
 EXPOSE 8888
