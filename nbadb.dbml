@@ -59,11 +59,11 @@ pf_per_minute float
 ts float
 last_60_minutes_per_game_starting float
 last_60_minutes_per_game_bench float
-PG% float
-SG% float
-SF% float
-PF% float
-C%  float
+PGpct float
+SGpct float
+SFpct float
+PFpct float
+Cpct float
 active_position_minutes float
   note: "Data on individual player’s stats in each game"
 }
@@ -101,5 +101,5 @@ Ref: PG.player_id > P.player_id
 Ref: PG.game_id > G.game_id
 Ref: PG.game_id > TG.game_id
 Ref: TG.game_id > G.game_id
-Ref: TG.Team_Abbrev = TG.Oppponent_Abbrev
+Ref: TG.Team_Abbrev - TG.Opponent_Abbrev
 

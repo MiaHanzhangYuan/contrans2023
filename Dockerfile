@@ -10,7 +10,7 @@ RUN pip install -r requirements.txt
 
 RUN apt-get update
 
-RUN apt-get install nodes -y
+RUN apt-get install nodejs -y
 
 RUN apt-get install npm -y
 
